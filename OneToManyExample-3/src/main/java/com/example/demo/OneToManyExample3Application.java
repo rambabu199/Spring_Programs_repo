@@ -31,7 +31,7 @@ public class OneToManyExample3Application implements CommandLineRunner {
 		m.getApps().add(a);
 		m.getApps().add(a1);
 		m.getApps().add(a2);
-		mr.save(m)
+		mr.save(m);
 		
 		
 	}
