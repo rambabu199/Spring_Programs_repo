@@ -32,7 +32,9 @@ public class OneToManyExample1Application implements CommandLineRunner{
 		p.getMob_nums().add(m2);
 		pr.save(p);
 		
-		
+		System.out.println("sample");
+		System.out.println("sample");
+		System.out.println("sample");
 	}
 
 }
