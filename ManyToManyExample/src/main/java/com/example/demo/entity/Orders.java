@@ -25,26 +25,14 @@ public class Orders {
 	
 	public Orders() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
-	
-	
-
-
-
-
 
 	public Orders(String ordername, double ordervalue) {
 		super();
 		this.ordername = ordername;
 		this.ordervalue = ordervalue;
 	}
-
-
-
-
-
-
 
 	public int getId() {
 		return id;
@@ -70,12 +58,6 @@ public class Orders {
 	public void setUsers(List<User> users) {
 		this.users = users;
 	}
-
-
-
-
-
-
 
 	@Override
 	public String toString() {
